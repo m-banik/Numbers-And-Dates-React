@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  color: rgb(24, 24, 211);
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+div#root>* {
+  flex-basis: calc(100%/3);
+}
+
+div#inputWrapper {
+  display: flex;
+  align-items: center;
+}
+
+#inputWrapper>input {
+  padding: 5%;
+}
+
+section {
+  width: 100%;
+  border-top: 2px solid rgb(0, 0, 194);
+  text-align: center;
+  background-color: #eee;
+}
+
+section>h1 {
+  padding: 5% 0 3%;
+  font-size: 1.8em;
+}
+
+section>h1>em {
+  border-bottom: 4px solid rgb(245, 229, 4)
+}
+
+section>h2 {
+  font-size: 1.4em;
+}
