@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}body{background-color:#ddd;color:#1818d3}div#root{display:flex;flex-direction:column;align-items:center;height:100vh}div#root>*{flex-basis:33.33333%}div#inputWrapper{display:flex;align-items:center}#inputWrapper>input{padding:5%}section{width:100%;border-top:2px solid #0000c2;text-align:center;background-color:#eee}section>h1{padding:5% 0 3%;font-size:1.8em}section>h1>em{border-bottom:4px solid #f5e504}section>h2{font-size:1.4em}
+/*# sourceMappingURL=main.4b4948ed.chunk.css.map */
